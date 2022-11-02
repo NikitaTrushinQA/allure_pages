@@ -33,4 +33,4 @@ class TestPageSearch:
             allure.attach(self.driver.get_screenshot_as_png(), name="Screenshot", attachment_type=AttachmentType.PNG)
         assert self.driver.title =='Mail.ru'
 
-#name='Screenshot',attachment_type= AttachmentType.PNG
+
